@@ -4,5 +4,7 @@ create table if not exists employees (
 	department varchar(255),
 	chief integer,
 	constraint employees_pk primary key (id, department),
-	foreign key (chief, department) references employees(id, department)
+	foreign key (chief, department) references employees(id, department),
+	foreign key (chief, id) references employees(id, chief),
+	check (id <> chief)
 );
