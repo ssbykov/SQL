@@ -37,7 +37,7 @@ INSERT INTO music_album VALUES (18, 'Uprising', 1980);
 INSERT INTO track VALUES (1, 'Going backwards', 343, 1);
 INSERT INTO track VALUES (2, 'Where''s the revolution', 299, 1);
 INSERT INTO track VALUES (3, 'Welcome to my world', 296, 2);
-INSERT INTO track VALUES (4, 'Angel', 237, 3);
+INSERT INTO track VALUES (4, 'Angel', 237, 2);
 INSERT INTO track VALUES (5, 'Кончится лето', 356, 3);
 INSERT INTO track VALUES (6, 'Красно-жёлтые дни', 350, 3);
 INSERT INTO track VALUES (7, 'Песня без слов', 307, 4);
@@ -70,6 +70,18 @@ INSERT INTO track VALUES (33, 'Chant Down Babylon', 155, 17);
 INSERT INTO track VALUES (34, 'Buffalo Soldier', 256, 17);
 INSERT INTO track VALUES (35, 'Coming in From The Cold', 271, 18);
 INSERT INTO track VALUES (36, 'Real Situation', 188, 18);
+INSERT INTO track VALUES (37, 'The Worst Crime', 228, 1);
+INSERT INTO track VALUES (38, 'Scum', 194, 1);
+INSERT INTO track VALUES (39, 'You Move', 230, 1);
+INSERT INTO track VALUES (40, 'Cover Me', 292, 1);
+INSERT INTO track VALUES (41, 'Eternal', 145, 1);
+INSERT INTO track VALUES (42, 'Poison Heart', 197, 1);
+INSERT INTO track VALUES (43, 'Heaven', 243, 2);
+INSERT INTO track VALUES (44, 'Secret to the End', 312, 2);
+INSERT INTO track VALUES (45, 'My Little Universe', 264, 2);
+INSERT INTO track VALUES (46, 'Кончится лето', 356, 3);
+INSERT INTO track VALUES (47, 'Звезда', 270, 3);
+
 ---- заполнение таблицы музыкальных сборников
 INSERT INTO music_collection VALUES (1, 'Сборник 1', 2021);
 INSERT INTO music_collection VALUES (2, 'Сборник 2', 2020);
@@ -145,13 +157,12 @@ INSERT INTO track_collection VALUES (32, 26, 7);
 INSERT INTO track_collection VALUES (33, 27, 7);
 INSERT INTO track_collection VALUES (34, 28, 7);
 INSERT INTO track_collection VALUES (35, 29, 7);
-INSERT INTO track_collection VALUES (36, 30, 8);
-INSERT INTO track_collection VALUES (37, 31, 8);
-INSERT INTO track_collection VALUES (38, 32, 8);
-INSERT INTO track_collection VALUES (39, 33, 8);
-INSERT INTO track_collection VALUES (40, 34, 8);
-INSERT INTO track_collection VALUES (41, 35, 8);
-INSERT INTO track_collection VALUES (42, 36, 8);
+INSERT INTO track_collection VALUES (36, 31, 8);
+INSERT INTO track_collection VALUES (37, 32, 8);
+INSERT INTO track_collection VALUES (38, 33, 8);
+INSERT INTO track_collection VALUES (39, 34, 8);
+INSERT INTO track_collection VALUES (40, 35, 8);
+
 
 
 
