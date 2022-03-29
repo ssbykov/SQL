@@ -1,169 +1,179 @@
 -- заполнение таблицы жанров
-INSERT INTO genre VALUES (1, 'Rock');
-INSERT INTO genre VALUES (2, 'Electronic');
-INSERT INTO genre VALUES (3, 'POP');
-INSERT INTO genre VALUES (4, 'Hip-Hop');
-INSERT INTO genre VALUES (5, 'Reggae');
+INSERT INTO genre
+VALUES
+	(1, 'Rock'),
+	(2, 'Electronic'),
+	(3, 'POP'),
+	(4, 'Hip-Hop'),
+	(5, 'Reggae');
 --заполнение таблицы исполнителей
-INSERT INTO artist VALUES (1, 'Depeche mode', 'Депеш');
-INSERT INTO artist VALUES (2, 'Кино', 'Кино');
-INSERT INTO artist VALUES (3, 'Pink Floyd', 'Pink Floyd');
-INSERT INTO artist VALUES (4, 'Jean Michel Jarre', 'J.M.Jarre');
-INSERT INTO artist VALUES (5, 'Мадонна Луиза Чикконе', 'Madonna');
-INSERT INTO artist VALUES (6, 'Mylene Jeanne Gautier', 'Mylen Farmer');
-INSERT INTO artist VALUES (7, 'Snoop Dogg', 'Snoop Dogg');
-INSERT INTO artist VALUES (8, 'Eminem', 'Eminem');
-INSERT INTO artist VALUES (9, 'Robert Nesta Marley', 'Bob Marley');
+INSERT INTO artist
+VALUES
+	(1, 'Depeche mode', 'Депеш'),
+	(2, 'Кино', 'Кино'),
+	(3, 'Pink Floyd', 'Pink Floyd'),
+	(4, 'Jean Michel Jarre', 'J.M.Jarre'),
+	(5, 'Мадонна Луиза Чикконе', 'Madonna'),
+	(6, 'Mylene Jeanne Gautier', 'Mylen Farmer'),
+	(7, 'Snoop Dogg', 'Snoop Dogg'),
+	(8, 'Eminem', 'Eminem'),
+	(9, 'Robert Nesta Marley', 'Bob Marley');
 -- заполнение таблицы музыкальных альбомов
-INSERT INTO music_album VALUES (1, 'Spirit', 2017);
-INSERT INTO music_album VALUES (2, 'Delta Machine', 2012);
-INSERT INTO music_album VALUES (3, 'Чёрный альбом', 1991);
-INSERT INTO music_album VALUES (4, 'Звезда по имени Солнце', 1989);
-INSERT INTO music_album VALUES (5, 'The Endless River', 2014);
-INSERT INTO music_album VALUES (6, 'The Division Bell', 1994);
-INSERT INTO music_album VALUES (7, 'Amazonia', 2021);
-INSERT INTO music_album VALUES (8, 'Equinoxe Infinity', 2018);
-INSERT INTO music_album VALUES (9, 'Madame X', 2019);
-INSERT INTO music_album VALUES (10, 'Rebel Heart', 2015);
-INSERT INTO music_album VALUES (11, 'Desobeissance', 2018);
-INSERT INTO music_album VALUES (12, 'Interstellaires', 2015);
-INSERT INTO music_album VALUES (13, 'I Wanna Thank Me', 2019);
-INSERT INTO music_album VALUES (14, 'Bible of Love', 2018);
-INSERT INTO music_album VALUES (15, 'Music to Be Murdered By', 2020);
-INSERT INTO music_album VALUES (16, 'Kamikaze', 2018);
-INSERT INTO music_album VALUES (17, 'Confrontation', 1983);
-INSERT INTO music_album VALUES (18, 'Uprising', 1980);
+INSERT INTO music_album
+VALUES
+	(1, 'Spirit', 2017),
+	(2, 'Delta Machine', 2012),
+	(3, 'Чёрный альбом', 1991),
+	(4, 'Звезда по имени Солнце', 1989),
+	(5, 'The Endless River', 2014),
+	(6, 'The Division Bell', 1994),
+	(7, 'Amazonia', 2021),
+	(8, 'Equinoxe Infinity', 2018),
+	(9, 'Madame X', 2019),
+	(10, 'Rebel Heart', 2015),
+	(11, 'Desobeissance', 2018),
+	(12, 'Interstellaires', 2015),
+	(13, 'I Wanna Thank Me', 2019),
+	(14, 'Bible of Love', 2018),
+	(15, 'Music to Be Murdered By', 2020),
+	(16, 'Kamikaze', 2018),
+	(17, 'Confrontation', 1983),
+	(18, 'Uprising', 1980);
 ---- заполнение таблицы треков
-INSERT INTO track VALUES (1, 'Going backwards', 343, 1);
-INSERT INTO track VALUES (2, 'Where''s the revolution', 299, 1);
-INSERT INTO track VALUES (3, 'Welcome to my world', 296, 2);
-INSERT INTO track VALUES (4, 'Angel', 237, 2);
-INSERT INTO track VALUES (5, 'Кончится лето', 356, 3);
-INSERT INTO track VALUES (6, 'Красно-жёлтые дни', 350, 3);
-INSERT INTO track VALUES (7, 'Песня без слов', 307, 4);
-INSERT INTO track VALUES (8, 'Звезда по имени Солнце', 226, 4);
-INSERT INTO track VALUES (9, 'Things Left Unsaid', 375, 5);
-INSERT INTO track VALUES (10, 'It''s What We Do', 261, 5);
-INSERT INTO track VALUES (11, 'Cluster One', 358, 6);
-INSERT INTO track VALUES (12, 'What Do You Want from Me', 261, 6);
-INSERT INTO track VALUES (13, 'Amazonia Part 1', 462, 7);
-INSERT INTO track VALUES (14, 'Amazonia Part 2', 599, 7);
-INSERT INTO track VALUES (15, 'The Watchers (Movement 1)', 177, 8);
-INSERT INTO track VALUES (16, 'Flying Totems (Movement 2)', 233, 8);
-INSERT INTO track VALUES (17, 'Medellin', 298, 9);
-INSERT INTO track VALUES (18, 'Dark Ballet', 174, 9);
-INSERT INTO track VALUES (19, 'Living for Love', 218, 10);
-INSERT INTO track VALUES (20, 'Devil Pray', 245, 10);
-INSERT INTO track VALUES (21, 'Rolling Stone', 225, 11);
-INSERT INTO track VALUES (22, 'Sentimentale', 256, 11);
-INSERT INTO track VALUES (23, 'Interstellaires', 191, 12);
-INSERT INTO track VALUES (24, 'Stolen Car', 202, 12);
-INSERT INTO track VALUES (25, 'What U Talkin’ Bout', 163, 13);
-INSERT INTO track VALUES (26, 'So Misinformed', 232, 13);
-INSERT INTO track VALUES (27, 'Love for God', 194, 14);
-INSERT INTO track VALUES (28, 'Always Got Something to Say', 245, 14);
-INSERT INTO track VALUES (29, 'Premonition', 174, 15);
-INSERT INTO track VALUES (30, 'Unaccommodating', 217, 15);
-INSERT INTO track VALUES (31, 'The Ringer', 337, 16);
-INSERT INTO track VALUES (32, 'Greatest', 226, 16);
-INSERT INTO track VALUES (33, 'Chant Down Babylon', 155, 17);
-INSERT INTO track VALUES (34, 'Buffalo Soldier', 256, 17);
-INSERT INTO track VALUES (35, 'Coming in From The Cold', 271, 18);
-INSERT INTO track VALUES (36, 'Real Situation', 188, 18);
-INSERT INTO track VALUES (37, 'The Worst Crime', 228, 1);
-INSERT INTO track VALUES (38, 'Scum', 194, 1);
-INSERT INTO track VALUES (39, 'You Move', 230, 1);
-INSERT INTO track VALUES (40, 'Cover Me', 292, 1);
-INSERT INTO track VALUES (41, 'Eternal', 145, 1);
-INSERT INTO track VALUES (42, 'Poison Heart', 197, 1);
-INSERT INTO track VALUES (43, 'Heaven', 243, 2);
-INSERT INTO track VALUES (44, 'Secret to the End', 312, 2);
-INSERT INTO track VALUES (45, 'My Little Universe', 264, 2);
-INSERT INTO track VALUES (46, 'Кончится лето', 356, 3);
-INSERT INTO track VALUES (47, 'Звезда', 270, 3);
-
+INSERT INTO track
+VALUES
+	(1, 'Going backwards', 343, 1),
+	(2, 'Where''s the revolution', 299, 1),
+	(3, 'Welcome to my world', 296, 2),
+	(4, 'Angel', 237, 2),
+	(5, 'Кончится лето', 356, 3),
+	(6, 'Красно-жёлтые дни', 350, 3),
+	(7, 'Песня без слов', 307, 4),
+	(8, 'Звезда по имени Солнце', 226, 4),
+	(9, 'Things Left Unsaid', 375, 5),
+	(10, 'It''s What We Do', 261, 5),
+	(11, 'Cluster One', 358, 6),
+	(12, 'What Do You Want from Me', 261, 6),
+	(13, 'Amazonia Part 1', 462, 7),
+	(14, 'Amazonia Part 2', 599, 7),
+	(15, 'The Watchers (Movement 1)', 177, 8),
+	(16, 'Flying Totems (Movement 2)', 233, 8),
+	(17, 'Medellin', 298, 9),
+	(18, 'Dark Ballet', 174, 9),
+	(19, 'Living for Love', 218, 10),
+	(20, 'Devil Pray', 245, 10),
+	(21, 'Rolling Stone', 225, 11),
+	(22, 'Sentimentale', 256, 11),
+	(23, 'Interstellaires', 191, 12),
+	(24, 'Stolen Car', 202, 12),
+	(25, 'What U Talkin’ Bout', 163, 13),
+	(26, 'So Misinformed', 232, 13),
+	(27, 'Love for God', 194, 14),
+	(28, 'Always Got Something to Say', 245, 14),
+	(29, 'Premonition', 174, 15),
+	(30, 'Unaccommodating', 217, 15),
+	(31, 'The Ringer', 337, 16),
+	(32, 'Greatest', 226, 16),
+	(33, 'Chant Down Babylon', 155, 17),
+	(34, 'Buffalo Soldier', 256, 17),
+	(35, 'Coming in From The Cold', 271, 18),
+	(36, 'Real Situation', 188, 18),
+	(37, 'The Worst Crime', 228, 1),
+	(38, 'Scum', 194, 1),
+	(39, 'You Move', 230, 1),
+	(40, 'Cover Me', 292, 1),
+	(41, 'Eternal', 145, 1),
+	(42, 'Poison Heart', 197, 1),
+	(43, 'Heaven', 243, 2),
+	(44, 'Secret to the End', 312, 2),
+	(45, 'My Little Universe', 264, 2),
+	(46, 'Кончится лето', 356, 3),
+	(47, 'Звезда', 270, 3);
 ---- заполнение таблицы музыкальных сборников
-INSERT INTO music_collection VALUES (1, 'Сборник 1', 2021);
-INSERT INTO music_collection VALUES (2, 'Сборник 2', 2020);
-INSERT INTO music_collection VALUES (3, 'Сборник 3', 2019);
-INSERT INTO music_collection VALUES (4, 'Сборник 4', 2018);
-INSERT INTO music_collection VALUES (5, 'Сборник 5', 2017);
-INSERT INTO music_collection VALUES (6, 'Сборник 6', 2016);
-INSERT INTO music_collection VALUES (7, 'Сборник 7', 2015);
-INSERT INTO music_collection VALUES (8, 'Сборник 8', 2014);
+INSERT INTO music_collection
+VALUES
+	(1, 'Сборник 1', 2021),
+	(2, 'Сборник 2', 2020),
+	(3, 'Сборник 3', 2019),
+	(4, 'Сборник 4', 2018),
+	(5, 'Сборник 5', 2017),
+	(6, 'Сборник 6', 2016),
+	(7, 'Сборник 7', 2015),
+	(8, 'Сборник 8', 2014);
 -- заполнение связующей таблицы жанр-исполнитель
-INSERT INTO genre_artist VALUES (1, 1);
-INSERT INTO genre_artist VALUES (1, 2);
-INSERT INTO genre_artist VALUES (1, 3);
-INSERT INTO genre_artist VALUES (2, 1);
-INSERT INTO genre_artist VALUES (2, 4);
-INSERT INTO genre_artist VALUES (3, 5);
-INSERT INTO genre_artist VALUES (3, 6);
-INSERT INTO genre_artist VALUES (4, 7);
-INSERT INTO genre_artist VALUES (4, 8);
-INSERT INTO genre_artist VALUES (5, 9);
+INSERT INTO genre_artist
+VALUES
+	(1, 1),
+	(1, 2),
+	(1, 3),
+	(2, 1),
+	(2, 4),
+	(3, 5),
+	(3, 6),
+	(4, 7),
+	(4, 8),
+	(5, 9);
 -- заполнение связующей таблицы  исполнитель-альбом
-INSERT INTO artist_album  VALUES (1, 1);
-INSERT INTO artist_album  VALUES (1, 2);
-INSERT INTO artist_album  VALUES (2, 3);
-INSERT INTO artist_album  VALUES (2, 4);
-INSERT INTO artist_album  VALUES (3, 5);
-INSERT INTO artist_album  VALUES (3, 6);
-INSERT INTO artist_album  VALUES (4, 7);
-INSERT INTO artist_album  VALUES (4, 8);
-INSERT INTO artist_album  VALUES (5, 9);
-INSERT INTO artist_album  VALUES (5, 10);
-INSERT INTO artist_album  VALUES (6, 11);
-INSERT INTO artist_album  VALUES (6, 12);
-INSERT INTO artist_album  VALUES (7, 13);
-INSERT INTO artist_album  VALUES (7, 14);
-INSERT INTO artist_album  VALUES (8, 15);
-INSERT INTO artist_album  VALUES (8, 16);
-INSERT INTO artist_album  VALUES (9, 17);
-INSERT INTO artist_album  VALUES (9, 18);
+INSERT INTO artist_album
+VALUES
+	(1, 1),
+	(1, 2),
+	(2, 3),
+	(2, 4),
+	(3, 5),
+	(3, 6),
+	(4, 7),
+	(4, 8),
+	(5, 9),
+	(5, 10),
+	(6, 11),
+	(6, 12),
+	(7, 13),
+	(7, 14),
+	(8, 15),
+	(8, 16),
+	(9, 17),
+	(9, 18);
 -- заполнение связующей таблицы трек-сборник
-INSERT INTO track_collection VALUES (1, 1, 1);
-INSERT INTO track_collection VALUES (2, 2, 1);
-INSERT INTO track_collection VALUES (3, 3, 1);
-INSERT INTO track_collection VALUES (4, 4, 1);
-INSERT INTO track_collection VALUES (5, 5, 1);
-INSERT INTO track_collection VALUES (6, 5, 2);
-INSERT INTO track_collection VALUES (7, 6, 2);
-INSERT INTO track_collection VALUES (8, 7, 2);
-INSERT INTO track_collection VALUES (9, 8, 2);
-INSERT INTO track_collection VALUES (10, 9, 2);
-INSERT INTO track_collection VALUES (11, 9, 3);
-INSERT INTO track_collection VALUES (12, 10, 3);
-INSERT INTO track_collection VALUES (13, 11, 3);
-INSERT INTO track_collection VALUES (14, 12, 3);
-INSERT INTO track_collection VALUES (15, 13, 3);
-INSERT INTO track_collection VALUES (16, 13, 4);
-INSERT INTO track_collection VALUES (17, 14, 4);
-INSERT INTO track_collection VALUES (18, 15, 4);
-INSERT INTO track_collection VALUES (19, 16, 4);
-INSERT INTO track_collection VALUES (20, 17, 4);
-INSERT INTO track_collection VALUES (21, 17, 5);
-INSERT INTO track_collection VALUES (22, 18, 5);
-INSERT INTO track_collection VALUES (23, 19, 5);
-INSERT INTO track_collection VALUES (24, 20, 5);
-INSERT INTO track_collection VALUES (25, 21, 5);
-INSERT INTO track_collection VALUES (26, 21, 6);
-INSERT INTO track_collection VALUES (27, 22, 6);
-INSERT INTO track_collection VALUES (28, 23, 6);
-INSERT INTO track_collection VALUES (29, 24, 6);
-INSERT INTO track_collection VALUES (30, 25, 6);
-INSERT INTO track_collection VALUES (31, 25, 7);
-INSERT INTO track_collection VALUES (32, 26, 7);
-INSERT INTO track_collection VALUES (33, 27, 7);
-INSERT INTO track_collection VALUES (34, 28, 7);
-INSERT INTO track_collection VALUES (35, 29, 7);
-INSERT INTO track_collection VALUES (36, 31, 8);
-INSERT INTO track_collection VALUES (37, 32, 8);
-INSERT INTO track_collection VALUES (38, 33, 8);
-INSERT INTO track_collection VALUES (39, 34, 8);
-INSERT INTO track_collection VALUES (40, 35, 8);
-
-
-
-
-
+INSERT INTO track_collection
+VALUES
+	(1, 1, 1),
+	(2, 2, 1),
+	(3, 3, 1),
+	(4, 4, 1),
+	(5, 5, 1),
+	(6, 5, 2),
+	(7, 6, 2),
+	(8, 7, 2),
+	(9, 8, 2),
+	(10, 9, 2),
+	(11, 9, 3),
+	(12, 10, 3),
+	(13, 11, 3),
+	(14, 12, 3),
+	(15, 13, 3),
+	(16, 13, 4),
+	(17, 14, 4),
+	(18, 15, 4),
+	(19, 16, 4),
+	(20, 17, 4),
+	(21, 17, 5),
+	(22, 18, 5),
+	(23, 19, 5),
+	(24, 20, 5),
+	(25, 21, 5),
+	(26, 21, 6),
+	(27, 22, 6),
+	(28, 23, 6),
+	(29, 24, 6),
+	(30, 25, 6),
+	(31, 25, 7),
+	(32, 26, 7),
+	(33, 27, 7),
+	(34, 28, 7),
+	(35, 29, 7),
+	(36, 31, 8),
+	(37, 32, 8),
+	(38, 33, 8),
+	(39, 34, 8),
+	(40, 35, 8);
